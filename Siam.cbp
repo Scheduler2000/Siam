@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Siam" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Siam" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Siam" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ConsoleExtension.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ConsoleExtension.h" />
+		<Unit filename="Coordinates.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Coordinates.h" />
+		<Unit filename="Displacement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Displacement.h" />
+		<Unit filename="FightManager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FightManager.h" />
+		<Unit filename="GameBoard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GameBoard.h" />
+		<Unit filename="GameHandler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GameHandler.h" />
+		<Unit filename="GameMenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GameMenu.h" />
+		<Unit filename="InputManager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="InputManager.h" />
+		<Unit filename="PartyHandler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PartyHandler.h" />
+		<Unit filename="Player.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Player.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,101 @@
+# depslib dependency file v1.0
+1544271916 source:c:\users\perospero\desktop\informatique\siam\main.c
+	<stdio.h>
+	"GameBoard.h"
+	"ConsoleExtension.h"
+	"GameMenu.h"
+	"GameHandler.h"
+	<windows.h>
+	"Coordinates.h"
+	<math.h>
+
+1544633531 source:c:\users\perospero\desktop\informatique\siam\consoleextension.c
+	<stdio.h>
+	"ConsoleExtension.h"
+	<windows.h>
+
+1544269045 c:\users\perospero\desktop\informatique\siam\consoleextension.h
+
+1544394973 source:c:\users\perospero\desktop\informatique\siam\gameboard.c
+	"GameBoard.h"
+	"ConsoleExtension.h"
+	"GameHandler.h"
+
+1544258364 c:\users\perospero\desktop\informatique\siam\gameboard.h
+
+1544050359 source:c:\users\perospero\desktop\informatique\siam\gamemenu.c
+	"GameMenu.h"
+	"ConsoleExtension.h"
+	"GameHandler.h"
+	"PartyHandler.h"
+
+1544037702 c:\users\perospero\desktop\informatique\siam\gamemenu.h
+	"GameBoard.h"
+	"GameHandler.h"
+
+1544052586 source:c:\users\perospero\desktop\informatique\siam\partyhandler.c
+	"PartyHandler.h"
+	"GameBoard.h"
+	"GameHandler.h"
+	"Player.h"
+
+1544029069 c:\users\perospero\desktop\informatique\siam\partyhandler.h
+	"GameBoard.h"
+	"GameHandler.h"
+
+1544278784 c:\users\perospero\desktop\informatique\siam\gamehandler.h
+	"GameBoard.h"
+	"Player.h"
+
+1544036527 c:\users\perospero\desktop\informatique\siam\player.h
+
+1544376401 source:c:\users\perospero\desktop\informatique\siam\player.c
+	"Player.h"
+	"ConsoleExtension.h"
+	"windows.h"
+
+1544394825 source:c:\users\perospero\desktop\informatique\siam\gamehandler.c
+	"GameHandler.h"
+	"GameBoard.h"
+	"FightManager.h"
+
+1544633719 source:c:\users\perospero\desktop\informatique\siam\fightmanager.c
+	"FightManager.h"
+	"InputManager.h"
+	"GameHandler.h"
+	"ConsoleExtension.h"
+
+1544630813 c:\users\perospero\desktop\informatique\siam\fightmanager.h
+	"GameHandler.h"
+	"Coordinates.h"
+
+1544632348 c:\users\perospero\desktop\informatique\siam\coordinates.h
+	"GameHandler.h"
+	<windows.h>
+
+1544122346 c:\users\perospero\desktop\informatique\siam\inputmanager.h
+	"Coordinates.h"
+
+1544564316 source:c:\users\perospero\desktop\informatique\siam\inputmanager.c
+	"InputManager.h"
+
+1544633467 source:c:\users\perospero\desktop\informatique\siam\coordinates.c
+	"Coordinates.h"
+	"ConsoleExtension.h"
+	"FightManager.h"
+	<math.h>
+
+1544393516 source:c:\users\perospero\desktop\informatique\siam\displacement.c
+	"Displacement.h"
+	"ConsoleExtension.h"
+	"Coordinates.h"
+	<windows.h>
+
+1544392245 c:\users\perospero\desktop\informatique\siam\displacement.h
+	"GameHandler.h"
+	<windows.h>
+	"Coordinates.h"
+
+1544273529 c:\users\perospero\desktop\informatique\siam\gameboardmanager.h
+	"Coordinates.h"
+
